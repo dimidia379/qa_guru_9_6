@@ -25,8 +25,5 @@ public class SelenideTest {
         $(linkText(REPOSITORY)).click();
         $(partialLinkText("Issues")).click();
         $(withText(ISSUE_TEXT)).shouldBe(Condition.visible);
-
-
-
     }
 }
