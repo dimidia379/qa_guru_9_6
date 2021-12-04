@@ -1,6 +1,7 @@
 package guru.qa;
 
 import com.codeborne.selenide.Condition;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
@@ -11,8 +12,9 @@ import static org.openqa.selenium.By.partialLinkText;
 
 public class StepsLambdaTest {
     private static final String REPOSITORY = "selenide/selenide";
-    private static final String ISSUE_TEXT = "Bad browser language in version 6+";
+    private static final String ISSUE_TEXT = "Get web console logs from firefox";
 
+    @Disabled
     @Test
     public void githubTest() {
         step("Открываем главную страницу", () -> {

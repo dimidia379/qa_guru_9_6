@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class StepsAnnotatedTest {
     private static final String REPOSITORY = "selenide/selenide";
-    private static final String ISSUE_TEXT = "Bad browser language in version 6+";
+    private static final String ISSUE_TEXT = "Get web console logs from firefox";
 
     private WebSteps steps = new WebSteps();
 
