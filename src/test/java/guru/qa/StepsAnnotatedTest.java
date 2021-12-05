@@ -3,7 +3,7 @@ package guru.qa;
 import guru.qa.steps.WebSteps;
 import org.junit.jupiter.api.Test;
 
-public class StepsAnnotatedTest {
+public class StepsAnnotatedTest extends TestBase {
     private static final String REPOSITORY = "selenide/selenide";
     private static final String ISSUE_TEXT = "Get web console logs from firefox";
 

@@ -10,7 +10,8 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-public class StepsLambdaTest {
+
+public class StepsLambdaTest extends TestBase {
     private static final String REPOSITORY = "selenide/selenide";
     private static final String ISSUE_TEXT = "Get web console logs from firefox";
 

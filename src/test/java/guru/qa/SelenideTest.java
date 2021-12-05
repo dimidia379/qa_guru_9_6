@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.openqa.selenium.By.linkText;
 import static org.openqa.selenium.By.partialLinkText;
 
-public class SelenideTest {
+public class SelenideTest extends TestBase {
     private static final String REPOSITORY = "selenide/selenide";
     private static final String ISSUE_TEXT = "Get web console logs from firefox";
 
